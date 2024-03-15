@@ -19,7 +19,6 @@ int n = 9;
 			}
 			System.out.println("");
 		}
-
 	}
 
 }
