@@ -87,7 +87,7 @@ public class Practice02 {
 		}
 //		[Ex11.java]
 //두 개의 정수를 입력 받아 큰 수를 작은 수로 나눈 몫과 나머지를 출력하는 프로그램을 작성하세요
-		//sssszz
+		//sssszzzz
 		
 	}
 
