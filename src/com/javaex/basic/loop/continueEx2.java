@@ -8,7 +8,7 @@ public class continueEx2 {
 				System.out.println(dan + " * " + i + " = " + dan * i);
 			}
 		}
-int n = 9;
+int n = 8;
 		for (int j = 1; j <= n; j++) {
 			
 			for (int l = n-1 ; l >= j; l--) {
