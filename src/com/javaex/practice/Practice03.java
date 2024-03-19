@@ -349,6 +349,7 @@ public class Practice03 {
 				System.out.println("===================================");
 				System.out.println("\t [숫자맞추기게임 종료]");
 				System.out.println("===================================");
+				scanner.close();
 				return;
 			case "n" :
 				num = (int)(Math.random()*100)+1;
@@ -372,5 +373,6 @@ public class Practice03 {
 			i = scanner.nextInt();
 		}
 		}
+		
 }
 	}
