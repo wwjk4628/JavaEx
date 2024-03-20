@@ -134,7 +134,7 @@ public class Practice04 {
 			l[i] = (int)(Math.random()*6)+1;
 			for (int j = 0; j < i; j++) {
 				if(l[i] == l[j]) {
-					j = 0;
+					j = -1;
 					l[i] = (int)(Math.random()*6)+1;
 					continue;
 				}
