@@ -20,7 +20,7 @@ public class Practice03 {
 //		ex17();
 //		ex18();
 //		ex19();
-		ex20();
+//		ex20();
 
 	}
 
@@ -373,6 +373,5 @@ public class Practice03 {
 			i = scanner.nextInt();
 		}
 		}
-		
 }
 	}

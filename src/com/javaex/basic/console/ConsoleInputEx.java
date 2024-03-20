@@ -20,6 +20,6 @@ public class ConsoleInputEx {
 						+ name + "님");
 		// 스케너 닫기
 		scanner.close();
-				
+
 	}
 }
