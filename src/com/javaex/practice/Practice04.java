@@ -131,12 +131,11 @@ public class Practice04 {
 	public static void ex8() {
 		int l[] = new int[6];
 		for (int i = 0; i < l.length; i++) {
-			l[i] = (int)(Math.random()*6)+1;
+			l[i] = (int)(Math.random()*45)+1;
 			for (int j = 0; j < i; j++) {
 				if(l[i] == l[j]) {
 					j = -1;
-					l[i] = (int)(Math.random()*6)+1;
-					continue;
+					l[i] = (int)(Math.random()*45)+1;
 				}
 				
 			}
