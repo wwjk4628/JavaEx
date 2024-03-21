@@ -1,7 +1,7 @@
 package com.javaex.practice;
-
+/*
 import java.util.Scanner;
-
+*/
 public class Practice01 {
 
 	public static void main(String[] args) {
@@ -34,7 +34,7 @@ public class Practice01 {
 		 * [Ex07.java] 다음 코드에서 변수로 사용할 수 없는 경우 이유를 작성하세요. (코드를 작성해서 오류가 없도록 변경해 보세요)
 		 */
 		// int true; //함수
-		int _of_workers;
+		/*int _of_workers;
 		int countOfLetterslnString;
 		int firstLever1; // 앞에 숫자
 		int person; // # 사용불가능
@@ -59,7 +59,7 @@ public class Practice01 {
 		 * 수정하세요
 		 */
 
-		int iVar = 10;
+		/*int iVar = 10;
 		long lVar = 1000000000000L;
 		char cVar = 'a'; // 단어 한개만
 		double dVar = 10;
@@ -76,7 +76,7 @@ public class Practice01 {
 		/*
 		 * [Ex13.java] 다음 중 결과값이 다른 것을 선택하고 이유를 설명해 보세요
 		 */
-		System.out.println(13 / 5);
+		/*System.out.println(13 / 5);
 		System.out.println((double) 13 / 5);
 		System.out.println(13 / (double) 5);
 		System.out.println((double) 13 / (double) 5);
@@ -93,7 +93,7 @@ public class Practice01 {
 		 * 
 		 * 
 		 */
-		int x1 = 1;
+	/*	int x1 = 1;
 		int y1 = 1;
 		int a = ++x1 * 2;
 		int b = y1++ * 2;
@@ -105,7 +105,7 @@ public class Practice01 {
 		/*
 		 * [Ex17.java] 다음 코드의 오류가 나는 부분을 찾은 후 이유를 작성하세요. (코드를 작성해서 오류가 없도록 변경해 보세요.)
 		 */
-		int sum;
+	/*	int sum;
 		int x2, y2;
 		x2 = 10;
 		y2 = 10;
@@ -117,7 +117,7 @@ public class Practice01 {
 		 * 
 		 * [Ex19.java] 아래 프로그램의 결과를 코드작성전에 먼저 예상해보고 코드를 작성해 확인해 보세요 91 41 51
 		 */
-		int num01 = 40;
+	/*	int num01 = 40;
 		int num02 = 50;
 		int result01 = (num01++) + (++num02);
 		System.out.println(result01);
@@ -127,7 +127,7 @@ public class Practice01 {
 		 * [Ex21.java] 아래의 출력 결과를 예상하여 작성하고, Ex20 문제와 어떤 부분이 다른지 비교해 보세요. (코드를 작성해서 예상과
 		 * 맞는지 확인해 보세요.) 10 1
 		 */
-		int i = 10;
+	/*	int i = 10;
 		int n01 = ++i % 2;
 
 		System.out.println(i);
@@ -140,7 +140,7 @@ public class Practice01 {
 		 * 결과를 distance에 저장한다. ⚫ distance를 콘솔에 출력한다.
 		 *
 		 */
-		double speed, time, distance;
+	/*	double speed, time, distance;
 		speed = 90.0;
 		time = 60.0;
 		distance = speed * time;
@@ -151,12 +151,12 @@ public class Practice01 {
 		 * 나오도록 수정하세요. ⚫ *[참고] ℃ : 섭씨 기호 ℉ : 화씨 기호 화씨→섭씨 ℃ = 5/9 * (℉ - 32) 섭씨→화씨 ℉ = (℃
 		 * * 9/5) + 32
 		 */
-		double f = 80.0;
+	/*	double f = 80.0;
 		System.out.println(5.0 / 9 * (f - 32.0));
 		/*
 		 * [Ex25.java] 아래의 출력결과를 예상하여 작성하세요. (코드를 작성해서 예상과 맞는지 확인해 보세요.) f t f t t
 		 */
-		int a01 = 13;
+	/*	int a01 = 13;
 		System.out.println((a01 > 13) && (a01 >= 13));
 		System.out.println((a01 > 13) || (a01 >= 13));
 		System.out.println((a01 / 3 == 4) && (a01 % 3 == 2));
@@ -166,7 +166,7 @@ public class Practice01 {
 		/*
 		 * [Ex26.java] 월급을 입력 받아 10년동안 최대 저축액을 계산하는 프로그램을 작성하세요.
 		 */
-		Scanner scanner = new Scanner(System.in);
+	/*	Scanner scanner = new Scanner(System.in);
 
 		System.out.print("월급을 입력하세요:");
 		int mon = scanner.nextInt();
@@ -176,7 +176,7 @@ public class Practice01 {
 		 * [Ex27.java] 반지름을 입력 받아 원의 면적을 구하는 프로그램을 작성하세요. (파이 값은 3.14로 상수로 지정)
 		 * 
 		 */
-		double PI = 3.14;
+	/*	double PI = 3.14;
 		System.out.print("반지름을 입력하세요:");
 		int cir = scanner.nextInt();
 		double size = cir * cir * PI;
@@ -185,7 +185,7 @@ public class Practice01 {
 		 * 
 		 * [Ex28.java] 원화를 달러화로 계산하는 프로그램을 작성하세요. (환율 1달러 = 1230.95원 상수로 지정)
 		 */
-		final double dollar = 1230.95;
+	/*	final double dollar = 1230.95;
 		System.out.print("환전할 원화를 입력하세요:");
 		int change = scanner.nextInt();
 		System.out.println("받으실 달러는 " + change / dollar);
@@ -194,7 +194,7 @@ public class Practice01 {
 		 * 
 		 * [Ex29.java] 직사각형의 둘레와 면적을 구하는 프로그램을 작성하세요. (너비, 높이 변수 double형으로 작성)
 		 */
-		System.out.print("너비를 입력하세요:");
+	/*	System.out.print("너비를 입력하세요:");
 		int x02 = scanner.nextInt();
 		System.out.print("높이를 입력하세요:");
 		int y02 = scanner.nextInt();
@@ -204,7 +204,7 @@ public class Practice01 {
 		 * [Ex30.java] 마일을 km로 변환하는 프로그램을 작성하세요.(1마일 = 1.609km 상수로 지정)
 		 * 
 		 */
-		System.out.print("마일을 입렷하세요:");
+	/*	System.out.print("마일을 입렷하세요:");
 		int mile = scanner.nextInt();
 		final double km = 1.609;
 		System.out.println(mile + "마일은 " + mile * km + "킬로미터 입니다.");
@@ -212,7 +212,7 @@ public class Practice01 {
 		 * [Ex31.java] 상품을 구매하면 정가의 10%를 부가세로 부여한다. 아래와 같이 출력되도록 프로그램을 작성하세요
 		 * 
 		 */
-		System.out.print("상품가격:");
+	/*	System.out.print("상품가격:");
 		double price = scanner.nextInt();
 		System.out.print("받은돈:");
 		double money = scanner.nextInt();
@@ -224,7 +224,7 @@ public class Practice01 {
 		/*
 		 * [Ex32.java] 사용자로부터 밑변, 높이 값을 입력 받아 삼각형의 넓이를 구하는 프로그램을 작성하세요
 		 */
-		System.out.print("가로");
+	/*	System.out.print("가로");
 		double x03 = scanner.nextInt();
 		System.out.print("세로");
 		double y03 = scanner.nextInt();
@@ -266,7 +266,7 @@ public class Practice01 {
 		int result = (total/1000)*1000;
 		System.out.println("실제 지불금액은 " + result);
 		
-		scanner.close();
+		scanner.close();*/
 	}
 
 }
