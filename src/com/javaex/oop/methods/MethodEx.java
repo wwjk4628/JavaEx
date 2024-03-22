@@ -4,16 +4,17 @@ public class MethodEx {
 
 	public static void main(String[] args) {
 		// 매개변수 X, 리턴 X
-//		printMessage();
+		printMessage();
 		// 매개변수 X, 리턴 O
-//		String message = getMessage();
-//		System.out.println(message);
+		String message = getMessage();
+		System.out.println(message);
 		// 매개변수 O, 리턴 X
-//		printDevide(4, 0);
+		printDevide(4, 0);
 		// 매개변수 O, 리턴 O
 		int num1 = 4, num2 = 5;
 		double sum = getSum(num1, num2, 6);
 		System.out.println(sum);
+		
 
 	}
 
@@ -38,11 +39,11 @@ public class MethodEx {
 				num1, num2, num1/num2);	
 	}
 	
-	private static double getSum(double num1, double num2) {
-		System.out.println("매개변수 있고, 리턴도 있는 메서드");
-		return num1 + num2;
-		
-	}
+//	private static double getSum(double num1, double num2) {
+//		System.out.println("매개변수 있고, 리턴도 있는 메서드");
+//		return num1 + num2;
+//		
+//	}
 	private static double getSum(double num1, double num2, double num3) {
 		System.out.println("매개변수 있고, 리턴도 있는 메서드");
 		return num1 + num2 + num3;

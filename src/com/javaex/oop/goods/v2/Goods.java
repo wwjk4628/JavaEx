@@ -6,16 +6,17 @@ public class Goods {
 	private String name;	//	상품명 
 	private int price;		//	가격
 	
-	public Goods(){ }
-	public Goods(String name, int price){
-		this.name = name;  // 매개변수로 받은 name을 필드에 할당
+	public Goods(){ }	// 기본생성자
+	
+	public Goods(String name, int price){	// 모듵필드 생성자
+		this.name = name;  
         this.price = price;
 		}
-	public String getName() {
+	public String getName() {	//게터
         return name;
     }
     
-    public void setName(String name) {
+    public void setName(String name) {	//세터
         this.name = name;
     }
     
