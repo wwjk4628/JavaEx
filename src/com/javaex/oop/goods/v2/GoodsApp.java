@@ -21,9 +21,9 @@ public class GoodsApp {
 		notebook.showInfo();
 		cup.showInfo();
 		System.out.println("========================");
-		System.out.printf("%s, %,d원%n", camera.getName(), camera.getPrice());
-		System.out.printf("%s, %,d원%n", notebook.getName(), notebook.getPrice());
-		System.out.printf("%s, %,d원%n", cup.getName(), cup.getPrice());
+		System.out.printf("상품이름: %s %n가격: %,d원%n", camera.getName(), camera.getPrice());
+		System.out.printf("상품이름: %s %n가격: %,d원%n", notebook.getName(), notebook.getPrice());
+		System.out.printf("상품이름: %s %n가격: %,d원%n", cup.getName(), cup.getPrice());
 	}
 
 }

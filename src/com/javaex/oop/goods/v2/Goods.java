@@ -21,10 +21,16 @@ public class Goods {
 	}
 
 	public void setPrice(int price) { // 세터
-		this.price = price;
+		if (price < 0) {
+			this.price = 0;
+		} else {
+			this.price = price;
+		}
+
 	}
 
+	// 일반 메서드
 	public void showInfo() {
-		System.out.printf("%s, %,d원%n", this.name, this.price);
+		System.out.printf("상품이름: %s %n가격: %,d원%n", this.name, this.price);
 	}
 }
