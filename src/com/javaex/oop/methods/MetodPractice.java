@@ -33,39 +33,37 @@ public class MetodPractice {
 		System.out.println(big);
 
 //		문제8. 문자열 두 개를 받아 하나로 합쳐 반환하는 메서드를 작성하세요
-		String sumString = concatenateStrings("aaa", "bbb");
-		System.out.println(sumString);
+		System.out.println(concatenateStrings("aaa", "bbb"));
 
 //		문제9. 가변인자로 전달된 모든 정수의 합을 반환하는 메서드를 작성하세요
 		int unnum = sumAll(1, 2, 3, 4);
 		System.out.println(unnum);
 
 //		 문제10. 가변인자로 전달된 모든 문자열을 연결해서 반환하는 메서드를 작성하세요
-		String sumString2 = concatenateStrings("aaa" + "bbb" + "ccc");
-		System.out.println(sumString2);
+		System.out.println(concatenateStrings("aaa" + "bbb" + "ccc"));
 
 	}
 
-	public static void printHelloMethod() {
+	private static void printHelloMethod() {
 		System.out.println("Hello Method");
 	}
 
-	public static void printNumbers() {
+	private static void printNumbers() {
 		for (int i = 1; i <= 10; i++) {
 			System.out.print(i + "\t");
 		}
 		System.out.println();
 	}
 
-	public static int getRandomNumber() {
+	private static int getRandomNumber() {
 		return (int)(Math.random() * 101) + 0;
 	}
 
-	public static int getSum() {
+	private static int getSum() {
 		return 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10;
 	}
 
-//	public static void printOddOrEven(int num1) {
+//	private static void printOddOrEven(int num1) {
 //		if (num1 % 2 == 0) {
 //			System.out.println("짝수");
 //		} else {
@@ -73,16 +71,16 @@ public class MetodPractice {
 //		}
 //
 //	}
-	public static void printOddOrEven(int value) {
+	private static void printOddOrEven(int value) {
 		//	3항 연산 : 조건식 ? 참일 떄의 값 : 거짓일 때의 값
 		System.out.println(value % 2 == 0 ? "짝수" : "홀수");
 	}
 
-	public static void printStringLengh(String i) {
+	private static void printStringLengh(String i) {
 		System.out.println(i.length());
 	}
 
-	public static int getLargeNumber(int num1, int num2) {
+	private static int getLargeNumber(int num1, int num2) {
 		if (num1 <= num2) {
 			return num2;
 		} else {
@@ -90,11 +88,11 @@ public class MetodPractice {
 		}
 	}
 
-	public static String concatenateStrings(String i, String n) {
+	private static String concatenateStrings(String i, String n) {
 		return i + n;
 	}
 
-	public static int sumAll(int... value) {
+	private static int sumAll(int... value) {
 		int result = 0;
 		for (int val : value) {
 			result += val;
@@ -102,7 +100,7 @@ public class MetodPractice {
 		return result;
 	}
 
-	public static String concatenateStrings(String... value) {
+	private static String concatenateStrings(String... value) {
 		String result = "";
 		for (String val : value) {
 			result += val;
