@@ -3,7 +3,7 @@ package com.javaex.oop.song.v1;
 public class SongApp {
 
 	public static void main(String[] args) {
-		Song IU = new Song();
+		Song IU = new Song();	// 생성자 
 		IU.setTitle("좋은날");
 		IU.setArtist("아이유");
 		IU.setAlbum("Real");

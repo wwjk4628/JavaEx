@@ -1,14 +1,24 @@
-package com.javaex.oop.song.v1;
+package com.javaex.oop.song.v2;
 
 public class Song {
-	//	필드
+	// 필드
 	private String title;
 	private String artist;
 	private String album;
 	private String composer;
 	private int year;
 	private int track;
-	//	게터,세터
+
+	// 게터,세터
+	public Song(String title, String artist, String album, String composer, int year, int track) {
+		this.artist = artist;
+		this.album = album;
+		this.composer = composer;
+		this.title = title;
+		this.track = track;
+		this.year = year;
+	}
+
 	public String getTitle() {
 		return title;
 	}
@@ -56,16 +66,11 @@ public class Song {
 	public void setTrack(int track) {
 		this.track = track;
 	}
-	
-	//	일반메서드
+
+	// 일반메서드
 	public void showInfo() {
-		System.out.printf("%s, %s (%s, %d, %d번 track, %s 작곡)%n",
-				this.artist,
-				this.title,
-				this.album,
-				this.year,
-				this.track,
-				this.composer);
+		System.out.printf("%s, %s (%s, %d, %d번 track, %s 작곡)%n", this.artist, this.title, this.album, this.year,
+				this.track, this.composer);
 	}
 
 }

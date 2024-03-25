@@ -6,7 +6,7 @@ public class Goods {
 	// instance 영역
 	private String name; // 상품명
 	private int price; // 가격
-
+	
 	// 메서드 영역
 	public String getName() { // 게터
 		return name;
