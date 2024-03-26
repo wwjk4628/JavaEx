@@ -14,7 +14,7 @@ public class TVApp {
 		tv.volume( false );
 		tv.statue();
 		
-		tv.channel( 256 );
+		tv.channel( 0 );
 		tv.statue();
 		tv.channel( true );
 		tv.channel( true );

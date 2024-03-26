@@ -8,11 +8,13 @@ public class FriendApp {
 
         Friend[] friendArray = new Friend[3];
         Scanner sc = new Scanner(System.in);
-
+        
+        
         System.out.println("친구를 3명 등록해 주세요");
         String n1 = new String();
         String h = new String();
         String sch = new String();
+       
         //for문 시작
         for (int i = 0; i < 3; i++) {
         	System.out.print("이름: ");
@@ -37,9 +39,10 @@ public class FriendApp {
         
         // 친구정보 출력
         for (int i = 0; i < friendArray.length; i++) {
-            System.out.print(friendArray[i].getName());
-            System.out.print(friendArray[i].getHp());
-            System.out.print(friendArray[i].getSchool());
+             
+            		friendArray[i].showInfo();
+
+            		
         }
 
         sc.close();
